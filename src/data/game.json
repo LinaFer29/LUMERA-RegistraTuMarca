@@ -409,6 +409,12 @@
     { "title": "Procedimiento", "text": "La solicitud pasa por etapas y puede recibir oposición. Presentar no significa que el registro ya esté concedido.", "icon": "05" },
     { "title": "Mantenimiento", "text": "Una marca registrada requiere uso, vigilancia y gestión de su vigencia para conservar su valor.", "icon": "06" }
   ],
+  "team": [
+    "Joan Sebastian Tunubala Sanchez",
+    "Juan Jose Pizo Camacho",
+    "Lina Maria Fernandez Garcia",
+    "Luis Edwar Mosquera Congo"
+  ],
   "final": {
     "eyebrow": "Reporte de misión",
     "title": "LÚMERA está lista para salir al mercado",

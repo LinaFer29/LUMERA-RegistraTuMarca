@@ -69,6 +69,7 @@ export interface GameData {
   tutorial: TutorialData
   missions: Mission[]
   concepts: { title: string; text: string; icon: string }[]
+  team: string[]
   final: { title: string; eyebrow: string; message: string; indicators: string[] }
   disclaimer: string
 }

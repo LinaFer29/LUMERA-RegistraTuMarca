@@ -10,6 +10,7 @@ import { MissionComplete } from './components/MissionComplete'
 import { FinalReport } from './components/FinalReport'
 import { SourcesModal } from './components/SourcesModal'
 import { ConceptsModal } from './components/ConceptsModal'
+import { TeamSection } from './components/TeamSection'
 import './styles.css'
 
 const data = gameData as GameData
@@ -55,6 +56,7 @@ export default function App() {
     {progress.screen === 'tutorial' && <main className="mission-page page-shell fade-in"><MissionHeader eyebrow={data.labels.tutorial} title={data.tutorial.title} description={data.tutorial.description} icon="T" /><QuestionCard key={currentQuestion.id} question={currentQuestion} sources={sources} labels={data.labels} onSolved={solveQuestion} onAttempt={incrementAttempt} /><div className="mission-footer"><span>Entrenamiento · {progress.questionIndex + 1} de {currentQuestions.length}</span><button className="text-button" onClick={() => setModal('sources')}>Ver fuentes</button></div></main>}
     {progress.screen === 'mission' && currentMission && <main className="mission-page page-shell fade-in"><MissionHeader eyebrow={`Misión ${String(currentMission.number).padStart(2, '0')} · ${currentMission.kicker}`} title={currentMission.title} description={currentMission.description} icon={currentMission.icon} intro={currentMission.intro} />{showCompletion ? <MissionComplete mission={currentMission} isLast={progress.missionIndex === data.missions.length - 1} onContinue={continueFromMission} label={data.labels.continue} /> : <QuestionCard key={currentQuestion.id} question={currentQuestion} sources={sources} labels={data.labels} onSolved={solveQuestion} onAttempt={incrementAttempt} />}<div className="mission-footer"><span>Decisión {progress.questionIndex + 1} de {currentQuestions.length}</span><button className="text-button" onClick={() => setModal('sources')}>Ver fuentes</button></div></main>}
     {progress.screen === 'final' && <FinalReport data={data} onConcepts={() => setModal('concepts')} onSources={() => setModal('sources')} onRestart={reset} />}
+    <TeamSection members={data.team} />
     <footer className="site-footer"><span>{data.brand} · {data.title}</span><span>{data.disclaimer}</span></footer>
     {modal === 'sources' && <SourcesModal sources={sources} onClose={() => setModal(null)} />}
     {modal === 'concepts' && <ConceptsModal concepts={data.concepts} onClose={() => setModal(null)} />}
