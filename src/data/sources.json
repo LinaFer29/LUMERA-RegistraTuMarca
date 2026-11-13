@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "decision486",
+      "name": "Decisión 486 — Régimen Común sobre Propiedad Industrial",
+      "organization": "Comunidad Andina",
+      "article": "Artículos 134, 135, 136, 152 y 165",
+      "url": "https://www.comunidadandina.org/DocOficialesFiles/Gacetas/Gace600.pdf",
+      "description": "Marco regional que regula, entre otros asuntos, las marcas, su distintividad, los impedimentos, la vigencia y la cancelación por falta de uso."
+    },
+    {
+      "id": "nice",
+      "name": "Clasificación de Niza",
+      "organization": "Organización Mundial de la Propiedad Intelectual",
+      "article": "Clasificación internacional de productos y servicios",
+      "url": "https://www.wipo.int/classifications/nice/es/",
+      "description": "Sistema internacional que organiza productos y servicios en 45 clases para efectos del registro de marcas."
+    },
+    {
+      "id": "sic",
+      "name": "Registro de marcas en Colombia",
+      "organization": "Superintendencia de Industria y Comercio",
+      "article": "Información de trámites y antecedentes marcarios",
+      "url": "https://www.sic.gov.co/tema/propiedad-Industrial/marcas",
+      "description": "Información institucional sobre el trámite de marcas y la consulta de antecedentes en Colombia."
+    }
+  ]
+}

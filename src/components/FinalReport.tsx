@@ -1,0 +1,6 @@
+import type { GameData } from '../types'
+
+interface Props { data: GameData; onConcepts: () => void; onSources: () => void; onRestart: () => void }
+export function FinalReport({ data, onConcepts, onSources, onRestart }: Props) {
+  return <main className="final-page page-shell fade-in"><div className="final-hero"><div className="final-flame">✦</div><span className="eyebrow">{data.final.eyebrow}</span><h1>{data.final.title}</h1><p>{data.final.message}</p></div><section className="report-card"><div className="report-card-head"><span>Checklist de protección</span><strong>7 / 7</strong></div><div className="indicator-grid">{data.final.indicators.map((indicator) => <div className="indicator" key={indicator}><span>✓</span>{indicator}</div>)}</div><div className="report-note"><span>◎</span><p>Una marca no es solo un nombre: es una decisión que se investiga, se registra y se cuida con el tiempo.</p></div></section><div className="final-actions"><button className="button button-primary" onClick={onConcepts}>Revisar conceptos <span>→</span></button><button className="button button-outline" onClick={onSources}>Ver fuentes</button><button className="text-button" onClick={onRestart}>{data.labels.restart}</button></div></main>
+}

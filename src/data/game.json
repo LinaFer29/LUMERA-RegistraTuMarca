@@ -1,0 +1,419 @@
+{
+  "brand": "LÚMERA",
+  "title": "Misión: Registra tu marca",
+  "subtitle": "Una aventura breve por el mundo de las marcas",
+  "intro": [
+    "Acabas de crear LÚMERA, una nueva marca colombiana de velas aromáticas y productos para ambientar el hogar.",
+    "Ya tienes una idea, un nombre y algunos productos, pero todavía no has protegido tu marca.",
+    "Tu lanzamiento será muy pronto.",
+    "Tu misión es tomar las decisiones correctas para que LÚMERA llegue protegida al mercado."
+  ],
+  "labels": {
+    "tutorial": "Entrenamiento",
+    "continue": "Continuar misión",
+    "start": "Comenzar misión",
+    "sources": "Fuentes consultadas",
+    "concepts": "Conceptos aprendidos",
+    "restart": "Reiniciar experiencia",
+    "foundation": "Ver fundamento",
+    "learned": "¿Qué acabas de aprender?",
+    "check": "Comprobar decisión",
+    "retry": "Volver a intentar",
+    "next": "Seguir avanzando",
+    "finish": "Terminar misión",
+    "back": "Volver al recorrido"
+  },
+  "tutorial": {
+    "title": "Antes de salir al mercado",
+    "description": "Dos decisiones rápidas para reconocer las piezas básicas de una marca.",
+    "completionTitle": "Entrenamiento completado",
+    "completionMessage": "Ya reconoces la función de una marca y sus formas más comunes. Ahora comienza el verdadero proceso de registro.",
+    "questions": [
+      {
+        "id": "tutorial-function",
+        "type": "single",
+        "eyebrow": "Primer paso",
+        "question": "¿Qué función cumple principalmente una marca?",
+        "context": "LÚMERA todavía no está registrada. Antes de protegerla, recordemos para qué sirve una marca.",
+        "options": [
+          { "id": "a", "text": "Decorar el empaque para que se vea más atractivo" },
+          { "id": "b", "text": "Distinguir productos o servicios de una empresa frente a los de otras" },
+          { "id": "c", "text": "Garantizar que el producto siempre tendrá éxito" },
+          { "id": "d", "text": "Reemplazar todos los permisos necesarios para vender" }
+        ],
+        "correctAnswers": ["b"],
+        "hint": "Piensa en la función de orientación que cumple un signo para quien compra.",
+        "retryMessage": "Buena elección, pero hay un detalle importante.",
+        "successTitle": "¡Muy bien! Ya diste el primer paso.",
+        "explanation": "Una marca es un signo que permite identificar y distinguir productos o servicios en el mercado. Ayuda a que las personas relacionen una oferta con un origen empresarial.",
+        "sourceIds": ["decision486"]
+      },
+      {
+        "id": "tutorial-types",
+        "type": "single",
+        "eyebrow": "El nombre de LÚMERA",
+        "question": "Si registramos solamente esta palabra, sin logo ni elementos gráficos, ¿qué tipo de marca sería?",
+        "context": "LÚMERA",
+        "options": [
+          { "id": "a", "text": "Nominativa", "detail": "Protege la palabra o expresión" },
+          { "id": "b", "text": "Figurativa", "detail": "Protege una imagen o diseño" },
+          { "id": "c", "text": "Mixta", "detail": "Combina palabra y elementos gráficos" }
+        ],
+        "correctAnswers": ["a"],
+        "hint": "Aquí solo estamos mirando el elemento verbal, no su apariencia visual.",
+        "retryMessage": "Parece lógico, aunque todavía falta separar palabra, imagen y combinación.",
+        "successTitle": "¡Excelente decisión!",
+        "explanation": "Una marca nominativa está formada por palabras o letras. Una figurativa se centra en una imagen; una mixta combina elementos verbales y gráficos.",
+        "sourceIds": ["decision486"]
+      }
+    ]
+  },
+  "missions": [
+    {
+      "id": "sensory-signs",
+      "number": 1,
+      "title": "Una marca no siempre se lee",
+      "kicker": "Amplía tu radar",
+      "description": "Descubre que una marca puede identificarse por más de una vía sensorial.",
+      "icon": "◌",
+      "intro": "El nombre y el logo son solo el comienzo. LÚMERA también tiene un recipiente reconocible, una paleta cálida, una melodía breve y un aroma propio.",
+      "completionTitle": "¡Excelente! Descubriste que una marca puede percibirse de muchas maneras.",
+      "completionMessage": "La protección puede involucrar signos no tradicionales, siempre que cumplan los requisitos jurídicos aplicables y puedan representarse o identificarse adecuadamente.",
+      "questions": [
+        {
+          "id": "sensory-elements",
+          "type": "multiple",
+          "eyebrow": "Decisión 01",
+          "question": "¿Cuáles de estos elementos podrían llegar a funcionar como marca?",
+          "context": "Selecciona los elementos que podrían distinguir productos de LÚMERA. La palabra “podrían” es importante: cada signo debe cumplir requisitos legales.",
+          "options": [
+            { "id": "name", "text": "Nombre LÚMERA", "icon": "Aa" },
+            { "id": "logo", "text": "Logo de LÚMERA", "icon": "✦" },
+            { "id": "shape", "text": "Forma particular del recipiente", "icon": "▱" },
+            { "id": "colors", "text": "Combinación característica de colores", "icon": "◐" },
+            { "id": "sound", "text": "Sonido identificador", "icon": "♫" },
+            { "id": "scent", "text": "Aroma", "icon": "✺" }
+          ],
+          "correctAnswers": ["name", "logo", "shape", "colors", "sound", "scent"],
+          "hint": "El nombre, las imágenes, las formas, los colores, los sonidos y —en ciertos casos— los aromas pueden ser signos distintivos. No significa que todos sean automáticamente registrables.",
+          "retryMessage": "Casi. Hay que mirar el conjunto de posibilidades, sin olvidar que cada una tiene condiciones.",
+          "successTitle": "¡Muy bien!",
+          "explanation": "Además de las marcas nominativas, pueden existir marcas figurativas, tridimensionales, de color, sonoras y eventualmente olfativas. Su protección depende de la distintividad y de que se cumplan los requisitos de representación y registro aplicables.",
+          "sourceIds": ["decision486"],
+          "visual": { "kind": "elements", "note": "Un signo puede llegar a identificar un origen empresarial de distintas maneras." }
+        }
+      ]
+    },
+    {
+      "id": "distinctiveness",
+      "number": 2,
+      "title": "Construye una marca fuerte",
+      "kicker": "Elige con intención",
+      "description": "Aprende por qué un nombre distintivo tiene más posibilidades de diferenciarse.",
+      "icon": "✦",
+      "intro": "Antes de lanzar el producto debemos escoger un nombre que no se confunda con una simple descripción del producto.",
+      "completionTitle": "¡Muy bien! LÚMERA empieza a convertirse en una marca fuerte.",
+      "completionMessage": "La distintividad ayuda a que el público relacione un signo con un origen empresarial concreto.",
+      "questions": [
+        {
+          "id": "strong-name",
+          "type": "single",
+          "eyebrow": "Decisión 02",
+          "question": "¿Cuál de estos nombres tendría mayor fuerza distintiva para una marca de velas?",
+          "context": "El nombre debe ayudar a diferenciar la marca, no limitarse a describir lo que vende.",
+          "options": [
+            { "id": "a", "text": "VELAS" },
+            { "id": "b", "text": "VELAS AROMÁTICAS" },
+            { "id": "c", "text": "LUZ & AROMA" },
+            { "id": "d", "text": "LÚMERA" }
+          ],
+          "correctAnswers": ["d"],
+          "hint": "Busca el nombre que no sea el nombre común del producto ni una descripción directa de sus características.",
+          "retryMessage": "Parece descriptivo, pero todavía no distingue con suficiente fuerza el origen empresarial.",
+          "successTitle": "¡Excelente elección!",
+          "explanation": "LÚMERA es una palabra de fantasía: no describe directamente una vela y puede funcionar como un identificador más singular. La fuerza distintiva siempre debe analizarse en relación con los productos concretos.",
+          "sourceIds": ["decision486"],
+          "visual": { "kind": "strength", "labels": ["Genérico", "Descriptivo", "Evocativo", "Fantasía"], "note": "A mayor capacidad de diferenciar, mayor espacio para construir una identidad propia." }
+        }
+      ]
+    },
+    {
+      "id": "nice",
+      "number": 3,
+      "title": "El reto de Niza",
+      "kicker": "Ordena el mapa",
+      "description": "Comprende qué organiza la Clasificación de Niza y qué no decide por sí sola.",
+      "icon": "⌘",
+      "intro": "LÚMERA vende velas aromáticas, difusores, recipientes decorativos y otros productos de ambientación. El registro debe describir correctamente ese universo.",
+      "completionTitle": "¡Mapa completado!",
+      "completionMessage": "Niza ayuda a ordenar productos y servicios. La estrategia de protección debe mirar todas las actividades relevantes de LÚMERA.",
+      "questions": [
+        {
+          "id": "nice-many-classes",
+          "type": "single",
+          "eyebrow": "Decisión 03A",
+          "question": "¿Una sola clase de Niza protege automáticamente todos los productos de LÚMERA?",
+          "context": "LÚMERA combina velas, difusores, recipientes y otros productos de ambientación.",
+          "options": [
+            { "id": "yes", "text": "Sí, una clase cubre todo lo que venda la marca" },
+            { "id": "no", "text": "No, puede ser necesario revisar varias clases" }
+          ],
+          "correctAnswers": ["no"],
+          "hint": "La clasificación organiza productos y servicios en 45 clases; una marca puede necesitar protección en más de una.",
+          "retryMessage": "La clasificación no funciona como un paraguas universal para cualquier producto.",
+          "successTitle": "¡Vas por buen camino!",
+          "explanation": "La Clasificación de Niza tiene 45 clases: de la 1 a la 34 se ocupan principalmente de productos y de la 35 a la 45, de servicios. Una marca puede requerir varias clases según su actividad.",
+          "sourceIds": ["nice"],
+          "visual": { "kind": "timeline", "labels": ["1—34", "Productos", "35—45", "Servicios"], "note": "Niza organiza. No decide por sí sola si existe conflicto." }
+        },
+        {
+          "id": "nice-conflict",
+          "type": "scenario",
+          "eyebrow": "Decisión 03B",
+          "question": "Encontramos una marca parecida a LÚMERA, pero está registrada en otra clase. ¿Eso significa automáticamente que no existe ningún conflicto?",
+          "context": "Dos marcas pueden estar en clases distintas y aun así merecer una comparación más cuidadosa.",
+          "options": [
+            { "id": "yes", "text": "Sí, las clases distintas siempre eliminan el conflicto" },
+            { "id": "no", "text": "No necesariamente" }
+          ],
+          "correctAnswers": ["no"],
+          "hint": "Las clases son una herramienta de organización; el análisis también considera semejanzas y la relación entre productos o servicios.",
+          "retryMessage": "Las clases orientan el análisis, pero no son una respuesta automática sobre la coexistencia.",
+          "successTitle": "¡Excelente decisión!",
+          "explanation": "Estar en clases distintas no significa automáticamente que dos marcas puedan coexistir. También importa qué tan parecidas son, qué productos o servicios identifican y cómo podría percibirlas el público.",
+          "sourceIds": ["nice", "decision486"]
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "number": 4,
+      "title": "Investiga antes de registrar",
+      "kicker": "Enciende la lupa",
+      "description": "Aprende por qué los antecedentes marcarios reducen riesgos antes de presentar la solicitud.",
+      "icon": "⌕",
+      "intro": "LÚMERA está lista para iniciar el trámite. Pero antes de invertir tiempo y recursos, conviene investigar qué existe alrededor.",
+      "completionTitle": "¡Bien hecho! Investigar antes de registrar puede evitar muchos problemas después.",
+      "completionMessage": "Una búsqueda cuidadosa orienta la estrategia, aunque la decisión final corresponde a la autoridad competente.",
+      "questions": [
+        {
+          "id": "search-before",
+          "type": "single",
+          "eyebrow": "Decisión 04A",
+          "question": "¿Qué sería recomendable hacer antes de presentar la solicitud?",
+          "context": "Espera. ¿Ya comprobaste si existe una marca igual o parecida?",
+          "options": [
+            { "id": "google", "text": "Buscar únicamente en Google" },
+            { "id": "records", "text": "Revisar antecedentes marcarios" },
+            { "id": "later", "text": "Registrar primero y revisar después" },
+            { "id": "colors", "text": "Cambiar los colores del logo" }
+          ],
+          "correctAnswers": ["records"],
+          "hint": "La investigación debe mirar los registros y las semejanzas relevantes, no solo resultados generales de internet.",
+          "retryMessage": "Una búsqueda general puede ser insuficiente para conocer los antecedentes de una marca.",
+          "successTitle": "¡Muy bien!",
+          "explanation": "Revisar antecedentes marcarios permite detectar signos iguales o parecidos y tomar decisiones informadas antes de presentar una solicitud. No es una garantía, pero sí una herramienta de prevención.",
+          "sourceIds": ["sic"]
+        },
+        {
+          "id": "search-guarantee",
+          "type": "boolean",
+          "eyebrow": "Decisión 04B",
+          "question": "La búsqueda no encontró una marca idéntica. ¿Eso garantiza que el registro será concedido?",
+          "context": "Una búsqueda útil reduce riesgos, pero el trámite todavía debe pasar por el análisis de la autoridad.",
+          "options": [
+            { "id": "yes", "text": "Sí, encontrar el nombre libre garantiza el registro" },
+            { "id": "no", "text": "No, la búsqueda no reemplaza el examen oficial" }
+          ],
+          "correctAnswers": ["no"],
+          "hint": "El resultado de una búsqueda orienta; la autoridad todavía examina la solicitud y puede recibir argumentos de terceros.",
+          "retryMessage": "Una búsqueda favorable es valiosa, pero no equivale a una decisión oficial.",
+          "successTitle": "¡Vas por buen camino!",
+          "explanation": "La búsqueda de antecedentes reduce riesgos y ayuda a decidir, pero no reemplaza el examen formal y de fondo que realizará la autoridad competente.",
+          "sourceIds": ["sic", "decision486"]
+        }
+      ]
+    },
+    {
+      "id": "confusion",
+      "number": 5,
+      "title": "Duelo de marcas",
+      "kicker": "Mira con ojos de consumidor",
+      "description": "Compara LÚMERA y LUMIRA más allá de sus letras.",
+      "icon": "⇄",
+      "intro": "Encontramos LUMIRA, una marca relacionada con productos similares. Solo cambia una vocal, pero el análisis no termina ahí.",
+      "completionTitle": "¡Muy bien! Pensaste como un examinador de marcas.",
+      "completionMessage": "El riesgo de confusión o asociación se analiza desde la semejanza de los signos y la relación entre los productos o servicios.",
+      "questions": [
+        {
+          "id": "duel-coexist",
+          "type": "scenario",
+          "eyebrow": "Decisión 05A",
+          "question": "Solo cambia una vocal. ¿Eso significa automáticamente que LÚMERA y LUMIRA pueden coexistir?",
+          "context": "LÚMERA / LUMIRA",
+          "options": [
+            { "id": "yes", "text": "Sí, si no son idénticas no hay problema" },
+            { "id": "no", "text": "No, todavía hay que comparar varios factores" }
+          ],
+          "correctAnswers": ["no"],
+          "hint": "El consumidor no compara solo letra por letra: también puede escuchar, ver y relacionar los signos.",
+          "retryMessage": "La diferencia de una letra no resuelve por sí sola la posibilidad de confusión.",
+          "successTitle": "¡Muy buena lectura del caso!",
+          "explanation": "Dos signos no tienen que ser idénticos para generar riesgo. La comparación considera sus semejanzas y la relación entre los productos o servicios.",
+          "sourceIds": ["decision486"],
+          "visual": { "kind": "comparison", "items": ["LÚMERA", "LUMIRA"], "note": "El consumidor percibe la marca como un conjunto." }
+        },
+        {
+          "id": "duel-factors",
+          "type": "multiple",
+          "eyebrow": "Decisión 05B",
+          "question": "¿Qué aspectos deberíamos comparar?",
+          "context": "Selecciona todos los factores relevantes para analizar el duelo entre LÚMERA y LUMIRA.",
+          "options": [
+            { "id": "written", "text": "Cómo se escriben", "icon": "Aa" },
+            { "id": "sound", "text": "Cómo suenan", "icon": "♫" },
+            { "id": "visual", "text": "Cómo se ven", "icon": "◉" },
+            { "id": "concept", "text": "Qué concepto transmiten", "icon": "◇" },
+            { "id": "goods", "text": "Qué productos o servicios identifican", "icon": "▱" },
+            { "id": "consumer", "text": "Cómo podría percibirlas un consumidor", "icon": "◎" }
+          ],
+          "correctAnswers": ["written", "sound", "visual", "concept", "goods", "consumer"],
+          "hint": "Piensa en semejanzas ortográficas, fonéticas, visuales y conceptuales, además de los productos y la percepción del público.",
+          "retryMessage": "Hay más de una dimensión: una marca se compara como un conjunto y en su contexto de mercado.",
+          "successTitle": "¡Pensaste como un examinador!",
+          "explanation": "La comparación puede incluir semejanza ortográfica, fonética, visual y conceptual; también la conexión entre productos o servicios, el riesgo de confusión y el riesgo de asociación.",
+          "sourceIds": ["decision486"]
+        },
+        {
+          "id": "duel-consumer",
+          "type": "boolean",
+          "eyebrow": "Decisión 05C",
+          "question": "Imagina que viste LÚMERA ayer y hoy encuentras LUMIRA en una tienda. ¿Podrías pensar que pertenecen a la misma empresa?",
+          "context": "La perspectiva del consumidor ayuda a entender por qué importan las semejanzas.",
+          "options": [
+            { "id": "yes", "text": "Sí, esa posibilidad debe analizarse" },
+            { "id": "no", "text": "No, el consumidor siempre identifica la diferencia" }
+          ],
+          "correctAnswers": ["yes"],
+          "hint": "La pregunta no afirma que exista confusión; invita a evaluar si esa asociación resulta plausible.",
+          "retryMessage": "El análisis jurídico se pregunta justamente si el público podría asociar los signos.",
+          "successTitle": "¡Muy bien!",
+          "explanation": "La percepción del consumidor es una parte importante del análisis. La posibilidad de que crea que existe un mismo origen empresarial puede ser relevante.",
+          "sourceIds": ["decision486"]
+        }
+      ]
+    },
+    {
+      "id": "procedure",
+      "number": 6,
+      "title": "Presentar no significa ganar",
+      "kicker": "Sigue la ruta",
+      "description": "Conoce el recorrido básico de una solicitud de registro.",
+      "icon": "→",
+      "intro": "¡Solicitud enviada! El trámite acaba de empezar. Ahora tendrás que seguir cada estación del procedimiento.",
+      "completionTitle": "¡Ruta completada!",
+      "completionMessage": "Presentar una solicitud abre un procedimiento; no equivale por sí solo a tener el registro concedido.",
+      "questions": [
+        {
+          "id": "procedure-status",
+          "type": "boolean",
+          "eyebrow": "Decisión 06A",
+          "question": "La solicitud fue enviada. ¿LÚMERA ya está registrada?",
+          "context": "¡Solicitud enviada!",
+          "options": [
+            { "id": "yes", "text": "Sí, enviar la solicitud concede el registro" },
+            { "id": "no", "text": "No, todavía falta el procedimiento" }
+          ],
+          "correctAnswers": ["no"],
+          "hint": "Enviar la solicitud es el inicio de una ruta con varias etapas antes de una decisión.",
+          "retryMessage": "La solicitud inicia el trámite, pero aún no sabemos cuál será la decisión.",
+          "successTitle": "¡Exacto!",
+          "explanation": "La presentación no equivale automáticamente a la concesión. La solicitud pasa por etapas de revisión y puede enfrentar observaciones u oposición.",
+          "sourceIds": ["sic", "decision486"],
+          "visual": { "kind": "timeline", "labels": ["Solicitud", "Examen formal", "Publicación", "Oposición", "Examen de fondo", "Decisión"] }
+        },
+        {
+          "id": "procedure-opposition",
+          "type": "single",
+          "eyebrow": "Decisión 06B",
+          "question": "⚠️ LUMIRA presentó una oposición. ¿Qué significa esto?",
+          "context": "La autoridad informa que un tercero presentó argumentos para cuestionar la solicitud de LÚMERA.",
+          "options": [
+            { "id": "cancel", "text": "LÚMERA queda rechazada de inmediato" },
+            { "id": "analyze", "text": "La autoridad debe analizar los argumentos antes de decidir" },
+            { "id": "transfer", "text": "La marca pasa automáticamente a LUMIRA" },
+            { "id": "ignore", "text": "La oposición no tiene ningún efecto en el trámite" }
+          ],
+          "correctAnswers": ["analyze"],
+          "hint": "Una oposición abre un espacio de argumentos dentro del procedimiento; no es una decisión automática.",
+          "retryMessage": "La oposición es importante, pero no equivale por sí sola a un rechazo definitivo.",
+          "successTitle": "¡Decisión bien tomada!",
+          "explanation": "Un tercero puede formular oposición durante el procedimiento. La autoridad analiza los argumentos y las reglas aplicables antes de tomar una decisión.",
+          "sourceIds": ["decision486"]
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "number": 7,
+      "title": "Registrar no es el final",
+      "kicker": "Cuida lo que construiste",
+      "description": "Aprende qué ocurre después de obtener el registro.",
+      "icon": "♢",
+      "intro": "🏆 LÚMERA fue registrada. Parece el final, pero una marca necesita atención durante toda su vida comercial.",
+      "completionTitle": "¡Misión completada!",
+      "completionMessage": "Ya sabes que proteger una marca no termina con obtener el registro: también hay que usarla, vigilarla y gestionar su renovación.",
+      "questions": [
+        {
+          "id": "maintenance-duration",
+          "type": "boolean",
+          "eyebrow": "Decisión 07A",
+          "question": "¿Una marca registrada dura para siempre automáticamente?",
+          "context": "🏆 LÚMERA fue registrada. Espera… todavía falta algo.",
+          "options": [
+            { "id": "yes", "text": "Sí, una vez registrada ya no requiere gestión" },
+            { "id": "no", "text": "No, tiene vigencia y puede renovarse" }
+          ],
+          "correctAnswers": ["no"],
+          "hint": "El registro tiene una vigencia determinada y requiere seguimiento para conservar la protección.",
+          "retryMessage": "El registro es un derecho valioso, pero no funciona sin límites de tiempo ni gestión.",
+          "successTitle": "¡Muy bien!",
+          "explanation": "El registro tiene una vigencia determinada y puede renovarse. Gestionar fechas y mantener una estrategia de protección forma parte del cuidado de la marca.",
+          "sourceIds": ["decision486"]
+        },
+        {
+          "id": "maintenance-use",
+          "type": "boolean",
+          "eyebrow": "Decisión 07B",
+          "question": "LÚMERA fue registrada, pero pasaron varios años sin utilizarla. ¿Puede existir alguna consecuencia?",
+          "context": "El equipo dejó de comercializar productos con la marca durante un periodo prolongado.",
+          "options": [
+            { "id": "yes", "text": "Sí, puede plantearse una cancelación por falta de uso" },
+            { "id": "no", "text": "No, el registro protege aunque nunca se use" }
+          ],
+          "correctAnswers": ["yes"],
+          "hint": "La protección marcaria se conecta con el uso real y efectivo del signo en el mercado.",
+          "retryMessage": "Registrar una marca no elimina la importancia de usarla y mantenerla activa.",
+          "successTitle": "¡Excelente!",
+          "explanation": "En términos sencillos, la falta de uso puede abrir la puerta a una solicitud de cancelación, bajo las condiciones legales aplicables. Dato experto: una marca también puede debilitarse si se vuelve el nombre genérico del producto.",
+          "sourceIds": ["decision486"]
+        }
+      ]
+    }
+  ],
+  "concepts": [
+    { "title": "Función y tipos", "text": "Una marca distingue productos o servicios. Puede ser nominativa, figurativa, mixta y, bajo ciertas condiciones, adoptar otras formas perceptibles.", "icon": "01" },
+    { "title": "Distintividad", "text": "Un signo necesita capacidad para diferenciar. Las expresiones genéricas o descriptivas suelen ofrecer menos espacio que una palabra de fantasía.", "icon": "02" },
+    { "title": "Clasificación de Niza", "text": "Organiza productos y servicios en 45 clases. Revisar una clase no sustituye el análisis del contexto ni de los posibles conflictos.", "icon": "03" },
+    { "title": "Antecedentes y conflicto", "text": "Comparar semejanzas ortográficas, fonéticas, visuales y conceptuales ayuda a valorar el riesgo de confusión o asociación.", "icon": "04" },
+    { "title": "Procedimiento", "text": "La solicitud pasa por etapas y puede recibir oposición. Presentar no significa que el registro ya esté concedido.", "icon": "05" },
+    { "title": "Mantenimiento", "text": "Una marca registrada requiere uso, vigilancia y gestión de su vigencia para conservar su valor.", "icon": "06" }
+  ],
+  "final": {
+    "eyebrow": "Reporte de misión",
+    "title": "LÚMERA está lista para salir al mercado",
+    "message": "Has completado el recorrido básico de análisis y protección de una marca.",
+    "indicators": ["Identidad de marca", "Distintividad", "Clasificación", "Antecedentes", "Riesgo de confusión", "Proceso de registro", "Mantenimiento"]
+  },
+  "disclaimer": "Recurso educativo desarrollado con fines académicos. La información presentada simplifica algunos conceptos para facilitar su comprensión y no constituye asesoría jurídica."
+}
